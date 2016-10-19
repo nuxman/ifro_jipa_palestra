@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Docker e Microserviços</title>
+        <meta charset="utf-8" />
+         <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+        <link href="impress-demo.css" rel="stylesheet" />
+    </head>
+    <body class="impress-not-supported">
+            <div class="fallback-message">
+              <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
+                <p>为了获得更好的体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
+            </div>
+        <div id="impress">
+            <div class="step" data-x="-1000" data-y="0" data-rotate="280" data-scale="1">
+                Docker e Microserviços</br>
+                <a>Outubro 2016</a>
+                <img src="moby.svg" alt="">
+            </div>
+            <div class="step" data-x="500" data-y="0">
+              <img src="icebergtopo.jpg" alt="">
+              <h2><span>Aplicações Monolíticas!!</span></h2>
+            </div>
+            <div class="step" data-x="600" data-y="600" data-rotate="4">
+                <li>Esse padrão funciona razoavelmente bem para pequenas aplicações</li>
+                <li>implatação acontecem de forma mais fácil.</li>
+            </div>
+            <div class="step" data-x="700" data-y="-800" data-scale="0.5">
+                <h1 class="atencao">Problema da Arquitetura</h1>
+                <li>Aplicações grandes e complexas</li>
+                <li>Ficar preso a uma unica tecnologia</li>
+                <li>Adotar Entregas Agéis fica bem mais difícil</li>
+                <li>Um único ponto de falha</li>
+                <li>Base do código extensa</li>
+                <li>Queda na qualidade do código com o decorrer do tempo</li>
+                <li>Escalabilidade Comprometida</li>
+                <li>Consumo maior de recursos(IDE,Servidores de aplicação)</li>
+            </div>
+            <!-- <div class="step" data-x="-500" data-y="-1800" data-rotate="90">
+                <img src="monovsmicro.jpg" alt="">
+            </div> -->
+            <div class="step" data-x="2800" data-y="0" data-rotate-x="30" data-rotate-y="-30" data-rotate-z="90" data-scale="4">
+                <img src="lego.jpg" alt="" width="103%">
+                <h2><span>o que é Microserviço ?</span></h2>
+            </div>
+            <div id="its" class="step" data-x="3000" data-y="-2000" data-rotate-x="60" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
+              <p>Serviços <b>pequenos</b> e <b>autônomos</b> trabalhando de forma conjunta, a fim de atender a uma capacidade do negócio</p>
+            </div>
+            <div class="step" data-x="4000" data-y="-2800" data-rotate-x="30" data-rotate-y="-30" data-rotate-z="90" data-scale="4">
+              <img src="movsmi.png" alt="" width="100%">
+            </div>
+            <div class="step" data-x="4000" data-y="-3200" data-rotate-x="120" data-rotate-y="-120" data-rotate-z="180" data-scale="4">
+              <h1 class="atencao">Qual o tamanho ideal de um microserviço?</h1>
+              <li>Não existe um padrão para definir o tamanho</li>
+              <li>Um caso de uso especifíco pode ser a origem de Microserviço</li>
+              <li>Que o microserviço tenha apenas uma unica responsabilidade</li>
+            </div>
+            <!-- darren code -->
+            <div id="overview" class="step" data-x="-3200" data-y="-500" data-scale="3"></div>
+        </div>
+        <script src="impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
