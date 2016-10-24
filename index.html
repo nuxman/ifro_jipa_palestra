@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Docker e Microserviços</title>
+        <meta charset="utf-8" />
+         <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+        <link href="impress-demo.css" rel="stylesheet" />
+    </head>
+    <body class="impress-not-supported">
+            <div class="fallback-message">
+              <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+      <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+            </div>
+        <div id="impress">
+            <div class="step" data-x="-8000" data-y="-3000">
+                Docker e Microserviços</br>
+                <a>Outubro 2016</a>
+                <img src="moby.svg" alt="">
+            </div>
+            <div class="step" data-x="-7000" data-y="-3000">
+              <img src="icebergtopo.jpg" alt="">
+              <h2><span>Aplicações Monolíticas!!</span></h2>
+            </div>
+            <div class="step" data-x="-7000" data-y="-2200" data-rotate-y="4" data-rotate="4">
+                <img src="complexmono.png"  alt="" width="104%" >
+                <h2><span>Complexidade envolvida !!</span></h2>
+            </div>
+            <div class="step" data-x="-7000" data-y="-1400">
+                <a><strong>Problemas da Arquitetura</strong></a></br>
+                <p>Ficar preso a somente uma tecnologia*</br>
+                Adotar Entregas Agéis fica bem mais difícil</br>
+                Um único ponto de falha</br>
+                Base do código extensa</br>
+                Queda na qualidade do código com o decorrer do tempo</br>
+                Escalabilidade Comprometida<br/>
+                Consumo maior de recursos(IDE,Servidores de aplicação)<br/>
+              </br/>
+                </p>
+            </div>
+            <div class="step" data-x="-7000" data-y="-500" data-rotate="20" data-scale="1">
+                <img src="Problema.jpg" alt="" width="102%">
+                <h2><span>Existe uam solução para esse problema ?</span></h2>
+            </div>
+            <div class="step" data-x="-6000" data-y="-500">
+                <img src="lego.jpg" alt="" width="103%">
+                <h2><span>Microserviço ?</span></h2>
+            </div>
+            <div class="step" data-x="-6000" data-y="0">
+              <p>Serviços <b>pequenos</b> e <b>autônomos</b> trabalhando de forma conjunta, a fim de atender a uma capacidade do negócio</p>
+            </div>
+            <div class="step" data-x="-6000" data-y="400">
+              <img src="movsmi.png" alt="" width="104%">
+              <h2><span>Arquitetura Monolítico x Arquitetura de Microserviços</span></h2>
+            </div>
+            <div class="step" data-x="-6000" data-y="1200">
+              <img src="tamanho.jpg" alt="" width="104%">
+              <h2><span>Qual o tamanho ideal de um microserviço?</span></h2>
+            </div>
+            <div class="step" data-x="-6000" data-y="1800">
+            <p>
+              Não existe um <strong>padrão</strong> para definir o tamanho</br>
+              Um <strong>caso de uso</strong> especifíco pode ser a origem de Microserviço</br>
+              Que o microserviço tenha apenas uma <a>única responsabilidade</a></br>
+            </p>
+            </div>
+            <div class="step" data-x="-6000" data-y="2400">
+              <img src="techs.png" alt="" width="103%">
+              <h2><span>Universo de Tecnologias na atualidade!</span></h2>
+            </div>
+            <div class="step" data-x="-6000" data-y="3200" data-rotate-x="30">
+                <a>Quais os benefícios?</a></br>
+                <p>
+                  Escolha da alternativa mais adequada para cada contexto</br>
+                  Facilidade em acompanhar as tecnologias</br>
+                  Impacto mínimo em aplicações de dependam de determinadas versões</br>
+                  Evolução de partes de um projetos em grandes impactos</br>
+                  Problemas costuman ser isolados</br>
+                  Falhas em partes especificas não iram parar a aplicação</br>
+                </p>
+            </div>
+            <div id="ing" class="step" data-x="-5000" data-y="-3000">
+                <p>
+                  <b class="positioning">Alta Disponibilidade</b></h1>
+                  Problemas costuman ser <b class="rotating">isolados</b></br>
+                  <b class="positioning">Falhas</b> em partes especificas não iram parar a aplicação</br>
+                </p>
+            </div>
+            <div class="step" data-x="-5000" data-y="-2400" data-rotate="30">
+                <p>
+                  <b>Escalabilidade</b></br>
+                  Maior facilidade em expandir a aplicação</br>
+                  Podemos usar qualquer empresa de tecnologia <a>Cloud Computing</a></br>
+                </p>
+            </div>
+            <div class="step" data-x="-5000" data-y="-1600" data-rotate="60">
+                <p>
+                  <b>Facilidade em fazer o deploy</b></br>
+                  Maior facilidade em adotar uma entrega ágil.</br>
+                  Atualizar sem que o sistema deixe de operar.</br>
+                  Mudanças constantes tem um menor impacto.</br>
+                </p>
+
+            </div>
+            <div class="step" data-x="-5000" data-y="-1000" data-rotate-x="90">
+                <p>
+                  <b>Cultura <a>DEVOPS</a></b></br>
+                  Testes Automatizados.</br>
+                  Entrega contínua.</br>
+                  Uso de Soluções <a>ALM</a>(Application lifecycle Management).</br>
+                </p>
+
+            </div>
+            <div id="source" class="step" data-x="-5000" data-y="-500" data-rotate="20">
+                    <b>Como fazer microserviços?</b></br>
+                    <q><a href="http://github.com/bartaz/impress.js">falar sobre Containers!, vamos, hmmm?</a>, Luke!</q>
+            </div>
+
+            <div class="step" data-x="-5000" data-y="500">
+              <img src="Docker_logo.svg" alt="" width="100%">
+            </div>
+            <div class="step" data-x="-5000" data-y="1000">
+              <p>
+                Processos executam isoladamente</br>
+                Leve e rápido</br>
+                Portável</br>
+              </p>
+            </div>
+            <!-- Rousseau Assinatura  -->
+            <div id="overview" class="step" data-x="0" data-y="0" data-scale="10"></div>
+
+        </div>
+        <script src="impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
