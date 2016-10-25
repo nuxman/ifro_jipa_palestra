@@ -3,5 +3,5 @@
 
 Palestra sobre Docker e Microserviços
 =====================================
-Dia 22/10/2016 no Campus de Ji-paraná
+Dia 22/10/2016 no Campus de Ji-Paraná
 -------------------------------------
